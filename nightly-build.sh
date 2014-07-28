@@ -79,4 +79,4 @@ cp $(find . -name "dSploit-release.apk" -type f) $NIGHTLIES_OUT_DIR/dSploit-$LAS
 ln -sf "dSploit-${LAST_COMMIT}.apk" $NIGHTLIES_OUT_DIR/dSploit-nightly.apk >&3 2>&1 || die
 echo "${LAST_COMMIT}" > "${LOG_DIR}last_commit" 2>&3 || die
 
-echo -n -e "${GREEN}Done.${RESET}\n\n" | tee >(cat - >&3)
+echo -n -e "${GREEN}Done.!!${RESET}\n\n" | tee >(cat - >&3)
